@@ -1,0 +1,25 @@
+{
+    "name": "LuisBot",
+    "services": [
+        {
+            "type": "endpoint",
+            "name": "development",
+            "endpoint": "http://localhost:3978/api/messages",
+            "appId": "",
+            "appPassword": "",
+            "id": "166"
+        },
+        {
+            "type": "luis",
+            "name": "pact-qna-test",
+            "appId": "e3750598-3c5c-4190-b1b5-558184495cd6",
+            "authoringKey": "6697692e5d5c46d9bca25ef81c3a145b",
+            "subscriptionKey": "6697692e5d5c46d9bca25ef81c3a145b",
+            "version": "0.1",
+            "region": "westus",
+            "id": "34"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0"
+}
